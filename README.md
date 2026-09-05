@@ -34,16 +34,18 @@ This project was initiated following the 26 August 2026 Nepal–Tibet flash floo
 | Copernicus GLO-30 / ASTER GDEM / SRTM | DEM, slope, bed-topography inputs |
 
 ## Repository Structure
-
 ```
 .
-├── data/           # Raw and processed datasets (see LICENSE-DATA.md)
-├── src/            # Processing and analysis code (see LICENSE)
-├── notebooks/      # Exploratory analysis
-├── docs/           # Methodology notes, literature review (see LICENSE-DATA.md)
-├── results/        # Susceptibility maps, figures, outputs
-├── LICENSE         # GNU GPLv3 (code)
-├── LICENSE-DATA.md # CC BY 4.0 (data & documentation)
+├── code/                # All source code (scripts, notebooks, pipelines)
+│   ├── preprocessing/    # SAR/optical preprocessing
+│   ├── lake_extraction/  # Waterbody extraction and classification
+│   ├── susceptibility/   # Susceptibility scoring and modeling
+│   └── utils/
+├── data/                # Derived and processed datasets
+├── docs/                # Reports, methodology notes, literature review
+├── figures/             # Maps, charts, and other visual outputs
+├── LICENSE              # GNU GPLv3 — applies to everything under code/
+├── LICENSE-DATA         # CC BY 4.0 — applies to data/, docs/, figures/
 └── README.md
 ```
 
@@ -64,6 +66,7 @@ This repository uses a **dual-license structure**:
 - **Code** (everything under `src/`, scripts, notebooks, and other software) is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See [LICENSE](LICENSE).
 - **Scientific data, figures, and documentation** (everything under `data/`, `docs/`, `results/`, this README, and other written material) is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. See [LICENSE-DATA.md](LICENSE-DATA.md).
 
+When reusing material from this repository, please apply the license appropriate to the type of material (code vs. data/documentation) and provide attribution as required by CC BY 4.0 where applicable.
 
 ## Citation
 
