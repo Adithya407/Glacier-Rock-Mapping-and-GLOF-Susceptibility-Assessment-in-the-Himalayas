@@ -45,7 +45,7 @@ This project was initiated following the 26 August 2026 Nepal–Tibet flash floo
 ├── docs/                # Reports, methodology notes, literature review
 ├── figures/             # Maps, charts, and other visual outputs
 ├── LICENSE              # GNU GPLv3 — applies to everything under code/
-├── LICENSE-DATA         # CC BY 4.0 — applies to data/, docs/, figures/
+├── LICENSE-DATA.md      # CC BY 4.0 — applies to data/, docs/, figures/
 └── README.md
 ```
 
@@ -63,8 +63,8 @@ cd <repository-name>
 
 This repository uses a **dual-license structure**:
 
-- **Code** (everything under `src/`, scripts, notebooks, and other software) is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See [LICENSE](LICENSE).
-- **Scientific data, figures, and documentation** (everything under `data/`, `docs/`, `results/`, this README, and other written material) is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. See [LICENSE-DATA.md](LICENSE-DATA.md).
+- **Code** (everything under `code/`, scripts, notebooks, and other software) is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See [LICENSE](LICENSE).
+- **Scientific data, figures, and documentation** (everything under `data/`, `docs/`, `figures/`, this README, and other written material) is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. See [LICENSE-DATA.md](LICENSE-DATA.md).
 
 When reusing material from this repository, please apply the license appropriate to the type of material (code vs. data/documentation) and provide attribution as required by CC BY 4.0 where applicable.
 
