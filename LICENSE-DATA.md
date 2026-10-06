@@ -17,7 +17,7 @@ To attribute this work:
 > Lalithadithya Krishna E, *Glacier Lake Mapping and GLOF Susceptibility Assessment
 > Using SAR Data*, licensed under CC BY 4.0.
 
-A human-readable summary of the license (not a substitute for it) is available at
+Summary of the license (not a substitute for it) is available at
 <https://creativecommons.org/licenses/by/4.0/>. The full legal code follows.
 
 ---
